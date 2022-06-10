@@ -1,0 +1,31 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+.tag-dropdown{
+  width: 150px;
+  right: 0;
+  z-index: 9999;
+}
+.tag{
+  cursor: pointer;
+  border:1px solid black;
+}
+.tag:hover, .tag.selected{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.tag.selected{
+ border: 3px solid black !important;
+}
+.image-container{
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+.tag-container{
+  height: 300px;
+  overflow-y: auto;
+}
+.thumbnail-image{
+  aspect-ratio: 16/9;
+  width: 60px;
+}
